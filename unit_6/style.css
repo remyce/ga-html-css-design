@@ -43,7 +43,7 @@ a{
 	color:#427a4b;
 	text-decoration: none;
 	padding:1em;
-	width:100px;
+	width:6.25em;
 }
 
 #contact {
@@ -53,43 +53,51 @@ a{
 
 .column {
 	float: left;
-	width: 23%;
+	width: 47%;
   	height: auto;
-	padding: 2%;
-	margin: 0 0 0 15px;
-	position: relative;
+	padding: 1%;
+	margin: 0 0.93 0 0.93em;
+	position: inline;
 }
 
 img{
 	width:100%;
 }
 
-/*#inc{ background-color: #456 }
+
+#inc{ background-color: #456 }
 
 #juice{ background-color: #234 }
 
 #zula{ background-color: #728 }
 
-#oyster{ background-color: #924 }*/
+#oyster{ background-color: #924 }
+
+
 
 #two_column{
 	background-color: #ffb7cf;
-	border: 1px black solid;
-	padding: 20px;
+	border: 0.0625em black solid;
+	padding: 1.25em;
+}
+
+#two_column .img{
+	color: #fff;
+	width:20%;
 }
 
 #left{
 	background-color: #E582A2;
-    border: 1px black solid;
-    padding: 20px;
+    border: 0.0625em black solid;
+    padding: 1.25em;
     float:left;
     width: 62%;
 }
 
 #right{
 	background-color: #E55B88;
-    border: 1px black solid;
-    padding: 20px;
+  	border: 0.0625em black solid;
+    padding: 1.25em;
     float: right;
     width: 30%;
 }
