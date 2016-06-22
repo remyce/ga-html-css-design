@@ -1,0 +1,103 @@
+
+@import url(https://fonts.googleapis.com/css?family=Palanquin);
+@import url(https://fonts.googleapis.com/css?family=Martel:400,300);
+
+* {padding: 0;margin:0;box-sizing:border-box;}
+
+body{
+	font-family: 'Martel', serif;
+	font-size: 16px; /*1em = 16px*/
+	color:#22241f;
+	line-height: 1.4;
+}
+
+header{
+	font-family: 'Palanquin', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	background-image: url(images/lightbulb.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 11.5em;
+	}
+
+header h1, header p{
+	background-color:rgba(66, 122, 75, 0.5);
+	text-align: center;
+}
+
+nav{
+	width:100%;
+	margin: 0.5em;
+	padding: 0.5em;
+	text-align: center;
+}
+
+a{
+	color:#427a4b;
+	text-decoration: none;
+	padding:1em;
+	width:6.25em;
+}
+
+#about{
+    text-align: center;
+    line-height: 1.5em;
+    margin: 8em;
+}
+
+#projects {
+    text-align: center;
+    width: 100%;
+    margin-top: 8em;
+}
+
+#contact {
+	color:#fff;
+
+}
+
+.column {
+	text-align: center;
+	float: left;
+	display: inline;
+	width: 25%;
+}
+
+.column img{
+	width: 100%;
+}
+
+#inc{   background-color: #456; 
+}
+#juice{ background-color: #234 }
+
+#zula{ background-color: #728 }
+
+#oyster{ background-color: #924 }
+
+
+footer{
+	text-align: center;
+	background:#000;
+	display: inline-block;
+	/*padding: 1em;*/
+	margin-top: 8em;
+	width:100%;
+	line-height: 5em;
+}
+
+@media only screen and (max-width: 768px){
+	body{ font-size: 14px;}
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
