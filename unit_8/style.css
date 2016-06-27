@@ -19,38 +19,76 @@ header{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 11.5em;
+	padding: 22%;
 	}
 
 header h1, header p{
-	background-color:rgba(66, 122, 75, 0.5);
 	text-align: center;
+	color: #fff;
+	background-color:rgba(66, 122, 75, 0.5);
 }
 
 nav{
 	width:100%;
-	margin: 0.5em;
-	padding: 0.5em;
+	padding: 0.8%;
 	text-align: center;
+	float: center;
+	display: inline-block;
+	margin:0;
 }
 
 a{
 	color:#427a4b;
 	text-decoration: none;
-	padding:1em;
-	width:6.25em;
+	padding:2%;
+}
+
+a#inc.column{
+	color:#fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8%;
+    width: 25%;
+}
+
+a#juice.column{
+	color:#fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8%;
+    width: 25%;
+}
+
+a#zula.column{
+	color:#fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8%;
+    width: 25%;
+}
+
+a#oyster.column{
+	color:#fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8%;
+    width: 25%;
 }
 
 #about{
     text-align: center;
-    line-height: 1.5em;
-    margin: 8em;
+    line-height: 2em;
+    margin: 8%;
 }
 
 #projects {
     text-align: center;
     width: 100%;
-    margin-top: 8em;
+    margin-top: 8%;
 }
 
 #contact {
@@ -63,33 +101,37 @@ a{
 	float: left;
 	display: inline;
 	width: 25%;
+    min-height: 2em;
 }
 
 .column img{
 	width: 100%;
+	min-height: 2em;
 }
 
-#inc{   background-color: #456; 
+#inc{
+	background-image: url(images/makeup2.jpeg);
 }
-#juice{ background-color: #234 }
+#juice{ 
+	background-image: url(images/beetjuicesmoothie.jpg);
+}
 
-#zula{ background-color: #728 }
+#zula{ 
+	background-image: url(images/vegancafe3.jpeg);
+	}
 
-#oyster{ background-color: #924 }
+#oyster{ 
+	background-image: url(images/holiday.jpg);
+	}
 
 
 footer{
 	text-align: center;
-	background:#000;
-	display: inline-block;
-	/*padding: 1em;*/
-	margin-top: 8em;
+	background:#000;/*
+	display: inline-block;*/
+	margin-top: 8%;
 	width:100%;
 	line-height: 5em;
-}
-
-@media only screen and (max-width: 768px){
-	body{ font-size: 14px;}
 }
 
 .clearfix:after {
@@ -100,4 +142,6 @@ footer{
   clear: both;
   height: 0;
 }
+
+
 
