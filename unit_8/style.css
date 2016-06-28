@@ -43,42 +43,6 @@ a{
 	padding:2%;
 }
 
-a#inc.column{
-	color:#fff;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 8%;
-    width: 25%;
-}
-
-a#juice.column{
-	color:#fff;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 8%;
-    width: 25%;
-}
-
-a#zula.column{
-	color:#fff;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 8%;
-    width: 25%;
-}
-
-a#oyster.column{
-	color:#fff;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 8%;
-    width: 25%;
-}
-
 #about{
     text-align: center;
     line-height: 2em;
@@ -104,44 +68,38 @@ a#oyster.column{
     min-height: 2em;
 }
 
-.column img{
-	width: 100%;
-	min-height: 2em;
-}
+.column img{width:100%;}
 
-#inc{
-	background-image: url(images/makeup2.jpeg);
-}
-#juice{ 
-	background-image: url(images/beetjuicesmoothie.jpg);
-}
-
-#zula{ 
-	background-image: url(images/vegancafe3.jpeg);
-	}
-
-#oyster{ 
-	background-image: url(images/holiday.jpg);
-	}
-
-
-footer{
+footer {
 	text-align: center;
-	background:#000;/*
-	display: inline-block;*/
+	background:#000;
+	display: inline-block;
 	margin-top: 8%;
 	width:100%;
 	line-height: 5em;
 }
 
 .clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
+  	visibility: hidden;
+  	display: block;
+  	font-size: 0;
+  	content: " ";
+  	clear: both;
+  	height: 0;
 }
 
+@media screen only and (max-width: 870px){
 
+#projects {
+	color:#427a4b;
+}
+
+.column {
+	width: 30%;
+	}
+}
+
+@media screen only and (max-width: 475px){
+
+}
 
