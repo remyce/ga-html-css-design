@@ -19,13 +19,20 @@ header{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 22%;
+	height: 100vh;
+	position: relative;
 	}
 
-header h1, header p{
+header div{
 	text-align: center;
 	color: #fff;
 	background-color:rgba(66, 122, 75, 0.5);
+	padding: 1em;
+	max-width: 25em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
 }
 
 nav{
@@ -44,9 +51,10 @@ a{
 }
 
 #about{
-    text-align: center;
     line-height: 2em;
-    margin: 8%;
+    margin: 8% auto;
+    max-width: 40em;
+    padding: 0 1em;
 }
 
 #projects {
@@ -63,9 +71,8 @@ a{
 .column {
 	text-align: center;
 	float: left;
-	display: inline;
 	width: 25%;
-    min-height: 2em;
+	min-height: 2em;
 }
 
 .column img{width:100%;}
@@ -88,18 +95,22 @@ footer {
   	height: 0;
 }
 
-@media screen only and (max-width: 870px){
-
-#projects {
-	color:#427a4b;
-}
-
-.column {
-	width: 30%;
+@media only screen and (max-width: 870px){
+	nav {
+		background:#fff;
+		padding:2em;
+		position:fixed;
+		bottom:0;
+	}
+	#projects {
+		color:#427a4b;
+	}
+	.column {
+		width: 50%;
 	}
 }
 
-@media screen only and (max-width: 475px){
+@media only screen and (max-width: 475px){
 
 }
 
