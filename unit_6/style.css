@@ -21,16 +21,10 @@ header{
 	
 }
 
-h2{
-	margin: 1em 0 0 0;
-	padding: 0 0 0.5em 0;
+header h1, header p{
+	background-color:rgba(66, 122, 75, 0.5);
 	text-align: center;
 }
-
-h3{
-	margin:1.5em 0 0 0;
-}
-
 
 nav{
 	width:100%;
@@ -46,64 +40,52 @@ a{
 	width:6.25em;
 }
 
+#about{
+    text-align: center;
+    line-height: 1.5em;
+    margin: 8em;
+}
+
+#projects {
+    text-align: center;
+    width: 100%;
+    margin-top: 8em;
+}
+
 #contact {
 	color:#fff;
 
 }
 
 .column {
+	text-align: center;
 	float: left;
-	width: 47%;
+	display: inline;
+	width: 50%;
   	height: auto;
-	padding: 1%;
-	margin: 0 0.93 0 0.93em;
-	position: inline;
 }
 
-img{
-	width:100%;
+.column img{
+	width: 100%;
 }
 
-
-#inc{ background-color: #456 }
+/*#inc{ background-color: #456 }
 
 #juice{ background-color: #234 }
 
 #zula{ background-color: #728 }
 
-#oyster{ background-color: #924 }
+#oyster{ background-color: #924 }*/
 
-
-
-#two_column{
-	background-color: #ffb7cf;
-	border: 0.0625em black solid;
-	padding: 1.25em;
-}
-
-#two_column .img{
-	color: #fff;
-	width:20%;
-}
-
-#left{
-	background-color: #E582A2;
-    border: 0.0625em black solid;
-    padding: 1.25em;
-    float:left;
-    width: 62%;
-}
-
-#right{
-	background-color: #E55B88;
-  	border: 0.0625em black solid;
-    padding: 1.25em;
-    float: right;
-    width: 30%;
-}
 
 footer{
 	text-align: center;
+	background:#000;
+	display: inline-block;
+	/*padding: 1em;*/
+	margin-top: 8em;
+	width:100%;
+	line-height: 5em;
 }
 
 .clearfix:after {

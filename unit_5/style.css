@@ -18,7 +18,7 @@ header{
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 9em;
-	background:#ffed74;
+	
 }
 
 h2{
@@ -30,9 +30,6 @@ h3{
 	margin:1.5em 0 0 0;
 }
 
-p{
-	width: 20em;
-}
 
 nav{
 	width:100%;
@@ -49,28 +46,12 @@ nav a{
 a{
 	color:#427a4b;
 	text-decoration: none;
-	background:#e8c66a;
 }
 
-aside {
-    background: #ffc675;
-    float: right;
-    width: 40%;
-    padding: 1em;
-    margin: 2em 2em 2em 0;
-}
-
-article{
-    background: #e89c6c;
-    float: left;
-    width: 50%;
-    margin: 2em 0em 2em 2em;
-}
 
 footer{
-	background:#ff957e;
 	clear:both;
-	margin: 0em 2em 0em 2em;
+	padding: 0em 2em 0em 2em;
 }
 
 section{

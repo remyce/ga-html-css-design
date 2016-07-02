@@ -1,33 +1,28 @@
 @import url(https://fonts.googleapis.com/css?family=Palanquin);
 @import url(https://fonts.googleapis.com/css?family=Martel:400,300);
 
-*{padding: 0;margin:0;box-sizing:border-box;}
+* {padding: 0;margin:0;box-sizing:border-box;}
 body { 
-<<<<<<< Updated upstream
-      font-family: 'Martel', serif;
-      color: #FFFAF5;
-=======
-      font-family: Helvetica, Arial, Sans-serif;
-      font-color: #22241F;
->>>>>>> Stashed changes
-      font-size: 16px; /*1em = 16px*/
-      line-height: 1.3;
+    font-family: 'Martel', serif;
+    color: #22241F;
+    font-size: 16px; /*1em = 16px*/
+    line-height: 1.3;
 }
 
 header {
 	font-family: 'Palanquin', sans-serif;
-	font-size: 2em;
+	font-size: 1.5em;
 	background-image: url(images/lightbulb.jpg); 
 	background-color: #FFEEDB;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size:cover;
+	background-size: cover;
 	padding: 9em;
 }
 
 h1 {
 	color: #FFEEDB;
-	font-size: 4em;
+	font-size: 3em;
 	text-align: center;
 }
 
@@ -35,32 +30,15 @@ h2 {
 	font-size: 1.5em
 }
 
-<<<<<<< Updated upstream
-=======
-p {
-	font-family: 'Martel', serif;
-	font-size: 1em;
-	width: 30em;
-}
-
->>>>>>> Stashed changes
 a {
 	color: #427A4B;
 	text-decoration: none;
 }
 
-<<<<<<< Updated upstream
 nav a{
 	font-style: italic;
 	margin-right: 20px;
 	text-align: center;
-=======
-nav a {
-    color: #427A4B;
-    font-style: italic;
-    margin-right: 20px;
-    text-align: center;
->>>>>>> Stashed changes
 }
 
 img {
@@ -75,18 +53,20 @@ footer {
 
 .box {
 	background-color: white;
-	opacity: 0.8;
-	font-weight: bold;
+	opacity: 0.7;
 	padding: 10px;
 }
 
-<<<<<<< Updated upstream
 .projectphoto{
-	width:25%;
-=======
-.projectphoto {
-	width: 30px;
->>>>>>> Stashed changes
+	width:30%;
 }
+
+#projects {
+	display: inline-block;
+	width: 30%;
+}
+
+
+
 
 
