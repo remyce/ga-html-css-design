@@ -60,7 +60,6 @@ a{
 #projects {
     text-align: center;
     width: 100%;
-    margin-top: 8%;
 }
 
 #contact {
@@ -95,22 +94,35 @@ footer {
   	height: 0;
 }
 
+/*Portrait*/
 @media only screen and (max-width: 870px){
+	
+	.column {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 600px){
+
 	nav {
 		background:#fff;
 		padding:2em;
 		position:fixed;
 		bottom:0;
 	}
-	#projects {
-		color:#427a4b;
+
+	#projects{
+		text-align: left;
+		margin: 8% auto;
+    	max-width: 40em;
+    	padding: 0 1em;
 	}
-	.column {
+
+	.column{
 		width: 50%;
+		float: none;
+		padding: 0em;
+		margin:2em 0em;
 	}
-}
-
-@media only screen and (max-width: 475px){
-
 }
 
